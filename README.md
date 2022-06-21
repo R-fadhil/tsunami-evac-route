@@ -8,13 +8,13 @@ A webGIS to analyze tsunami evacuation route in The Special Region of Yogyakarta
 3. restore the database to your server/Localhost
 4. Open it through Web Browser
 
-## Component
+## Components
 1. Web introduction interface file is in ['/webintroduction'](https://github.com/R-fadhil/tsunami-evac-route/tree/main/webintroduction)
 2. WebGIS interface file is in ['/webintroduction/webgis'](https://github.com/R-fadhil/tsunami-evac-route/tree/main/webintroduction/webgis)
 3. Tsunami evacuation program are in ['/webintroduction/webgis/php'](https://github.com/R-fadhil/tsunami-evac-route/tree/main/webintroduction/webgis/php)
 4. database file is in ['/webintroduction/webgis/php'](https://github.com/R-fadhil/tsunami-evac-route/tree/main/backup_database.rar)
 
-## Component Inside Database
+## Components Inside Database
 1. Tsunami evacuation shelter from [GITEWS](https://www.gitews.org/tsunami-kit/index_en.html) and OpenStreetMap
 2. Tsunami hazard zone from [GITEWS](https://www.gitews.org/tsunami-kit/en/id_tsunami_hazard_map_diy.html)
 3. Road network downloaded from OpenStreetMap on 27 October 2021
