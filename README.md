@@ -20,4 +20,6 @@ A webGIS to analyze tsunami evacuation route in The Special Region of Yogyakarta
 4. Open it through Web Browser
 
 ## Screenshot
-![screenshot](https://raw.github.com/domoritz/leaflet-locatecontrol/gh-pages/screenshot.png "Screenshot showing the locate control")
+### Mockup web introduction interface (left) and WebGIS Interfaces (right)
+
+![screenshot](https://github.com/R-fadhil/tsunami-evac-route/blob/main/mockup.png)
