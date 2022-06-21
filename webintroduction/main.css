@@ -1,0 +1,134 @@
+html {
+	height: 100% !important;
+	width: 100%;
+}
+body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	color: #363940;
+}
+
+section {
+	position: relative;
+}
+
+#source-data-section,#fitur-section,#open-webgis-section,#contact-section{
+	padding: 25px 0 25px;
+}
+
+.page-header {
+	margin:  20px 0 20px;
+	padding: 0;
+}
+.credit{
+	position: relative;
+	font-size: 10px;
+	text-align: right;
+	padding-right: 5px;
+	color: #FFF;
+}
+
+
+/* ===== Begin intro ===== */
+.filter-black{
+	
+	height: 100%;
+	padding:0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#intro-section {
+	height: 50vh;
+	background-position: 50% 85%;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#intro-section .container {
+	height: 100%;
+}
+#intro-section .caption {
+	position: absolute;
+	color: rgb(255,255,255);
+	top: 35%;
+	text-shadow: 3px 3px 3px rgba(0,0,0,1);
+}
+#intro-section .caption > h3 {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+#intro-section .caption > p {
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+/* ===== End intro ===== */
+
+
+/* Begin fitur section */
+#fitur-section{
+background-color: #f8f8f8;}
+/* ===== End fitur ===== */
+
+
+/* Begin source data section */
+#source-data-section{
+	background-color: rgb(250, 250, 250);
+}
+h4{
+	border-bottom: 1px solid rgba(121, 167, 211, 0.31);
+	background-color:rgba(161, 206, 248, 0.2);
+	padding:5px 5px;}
+div#content{
+	margin-bottom: 20px;
+}
+
+/* End source data section */
+
+
+/* begin open-webgis section */
+#open-webgis-section{
+	height:40vh;
+	background-color: #31343a;
+}
+#open-webgis-section > div.container-fluid > a.btn-success {
+	position: absolute;
+	font-size: 25px;
+	width:200px;
+	top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#open-webgis-section > div.container-fluid > a.btn-danger {
+	position: absolute;
+	font-size: 25px;
+	width:200px;
+	top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/* End open webgis section */
+
+/* begin contact section */
+#contact-section{
+	background-color: #282b30;
+}
+
+.contact-person{
+	margin: 50px;
+	color: rgba(153, 153, 153, 0.829);
+}
+
+img.profile{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	top: 50%;
+    left: 85%;
+    margin-right: -15%;
+    transform: translate(-50%, -50%)
+	}
+
+/* end contact section */
