@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>WebGIS Rute Evakuasi Tsunami Provinsi DIY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!--URLs Leaflet's CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    
+    <!-- URLs Leaflet's JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <!--URLs Bootstrap's CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!--URLs Jquery & jqueryui-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!--URLs Plugin leaflet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+    <script src="plugin/leaflet.polylineoffset.js"></script>
+    <script src="plugin/leaflet.legend.js"></script>
+    <link rel="stylesheet" href="plugin/leaflet.legend.css">
+
+    <!--URL webgis's external CSS file-->
+    <link rel="stylesheet" href="webgis.css">
+  </head>
+
+    
+  <body>
+    <div class="page-loader">
+      <div class="image-loading-web"></div>
+    </div>
+    
+    <!--BEGIN Navbar-->
+    <nav>   
+      <div class="container-fluid" role="navigation">
+        <a id="item-left"class="navbar-brand "> WEBGIS Rute Evakuasi Tsunami DIY </a>
+        <a id="item-right" class="navbar-brand" href="../main.html">Kembali</a>                  
+      </div>
+    </nav>
+    <!--END Navbar-->
+
+    <!--Loading animation when waiting analysis respond-->
+    <img id="route-loading" src="img2/loading.gif" alt="memuat rute" >
+      
+    <!--BEGIN "map container"-->
+    <div class="container">     
+      <!--map element -->
+      <div id="leaflet-js-map">    
+      </div>
+    </div>
+    <!--END "map container"-->
+
+    <!--URL webgis's external javascript file-->
+    <script src="webgis.js"></script>
+
+    <!--notification that remind user to fill quetioner everytime finish receiving analysis respond -->
+    <div id="dialog">
+      <bold><p>Terima Kasih Telah Mencoba WebGIS Rute Evakuasi Tsunami Provinsi DIY</p>
+      <p>Jangan Lupa Untuk Mengisi Kuesioner</p></bold>
+    </div>
+  </body>
+</html>
+
+
+
+
