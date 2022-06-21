@@ -5,7 +5,7 @@ A webgis to analyze tsunami evacuation route in The Special Region of Yogyakarta
 
 ## Component
 ####Interface
-Web Introduction (html) are in [`\src`]
+Web Introduction (html) are in [`\webintroduction`]
 
 
 ## How to Set up
