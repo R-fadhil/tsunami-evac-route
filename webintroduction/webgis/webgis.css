@@ -1,0 +1,117 @@
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+body > div.container {
+    position: fixed;
+    top: 80px;
+    bottom: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  
+#leaflet-js-map{
+  height: 100%;
+  width: 100%;
+  } 
+
+@media screen and (min-width: 750px) {
+    a#item-left{
+    font-size: 25px;
+}}
+@media screen and (max-width: 650px) {
+  a#item-left{
+  font-size: 18px;
+}}   
+@media screen and (max-width: 520px) {
+    a#item-left{
+    font-size: 13px;
+  }}   
+@media screen and (max-width: 340px) {
+  a#item-left{
+  font-size: 11px;
+}}  
+
+.container-fluid {
+  position: relative;
+  height: 80px;
+  background-color: #145a78;
+  padding: 0px;
+}
+
+.navbar-brand{
+    position:relative;
+    top: 20px;
+    height: 30px;
+    line-height: 0px;  
+    color: white;
+}
+
+a#item-right{
+  
+  border-radius: 5px; 
+  border: 1px solid white;
+  font-size: 13px;
+  float: right;
+  margin-right: 15px;
+}
+
+.leaflet-control-startpoint.active .when-active,
+.leaflet-control-startpoint .when-inactive{
+	display:inline-block;
+}
+
+.leaflet-control-startpoint.active .when-inactive,
+.leaflet-control-startpoint .when-active{
+	display:none;
+}
+
+
+.Legenda {
+  background: rgba(255,255,255,0.8);
+  line-height: 18px;
+  color: #555;
+  text-align: right;
+  padding: 5px;
+}
+.Legenda i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+
+#route-loading{
+  display :none;
+  position :absolute; 
+  top :50%; 
+  left :50%; 
+  margin-left :-75px; 
+  margin-top :-23px; 
+  z-index:9999;}
+
+.page-loader {
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+.image-loading-web{
+  background: url('img2/loading_web.gif') no-repeat center center;
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
