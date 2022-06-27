@@ -20,6 +20,6 @@ A webGIS to analyze tsunami evacuation route in The Special Region of Yogyakarta
 3. Road network downloaded from OpenStreetMap on 27 October 2021
 
 ## Screenshot
-#### Mockup web introduction interface (left) and WebGIS interfaces (right)
+#### Mockup of Web Introduction's interface (left) and WebGIS's interface (right)
 
 ![screenshot](https://github.com/R-fadhil/tsunami-evac-route/blob/main/mockup.png)
