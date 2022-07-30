@@ -1,6 +1,6 @@
 # tsunami-evac-route
 
-A webGIS to analyze tsunami evacuation route in The Special Region of Yogyakarta, Indonesia. The webGIS use PostgreSQL as database, PostGIS and PgRouting extention to support spatial data and Network Analysis Function
+A webGIS to analyze tsunami evacuation route in The Special Region of Yogyakarta, Indonesia. The webGIS use PostgreSQL as database, PostGIS and PgRouting extention to support spatial data and network analysis function
 
 ## How to Set up
 1. Put [interface and program](https://github.com/R-fadhil/tsunami-evac-route/tree/main/webintroduction) into server / localhost 
